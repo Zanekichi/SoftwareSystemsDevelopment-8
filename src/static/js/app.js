@@ -1,5 +1,11 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
+	      <Row className="my-3">
+        <Col className="text-center">
+          <h1>Yosuke Sekiya</h1>
+        </Col>
+      </Row>
+
     return (
         <Container>
             <Row>
@@ -176,5 +182,4 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
         </Container>
     );
 }
-
 ReactDOM.render(<App />, document.getElementById('root'));
