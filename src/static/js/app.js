@@ -1,21 +1,23 @@
 function App() {
-    const { Container, Row, Col } = ReactBootstrap;
-	      <Row className="my-3">
+  const { Container, Row, Col } = ReactBootstrap;
+
+  return (
+    <Container>
+      <Row className="my-3">
         <Col className="text-center">
           <h1>Yosuke Sekiya</h1>
         </Col>
       </Row>
 
-    return (
-        <Container>
-            <Row>
-                <Col md={{ offset: 3, span: 6 }}>
-                    <TodoListCard />
-                </Col>
-            </Row>
-        </Container>
-    );
+      <Row>
+        <Col md={{ offset: 3, span: 6 }}>
+          <TodoListCard />
+        </Col>
+      </Row>
+    </Container>
+  );
 }
+
 
 function TodoListCard() {
     const [items, setItems] = React.useState(null);
