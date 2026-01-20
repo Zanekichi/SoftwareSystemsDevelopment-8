@@ -5,7 +5,7 @@ function App() {
     <Container>
       <Row className="my-3">
         <Col className="text-center">
-          <h1>Yosuke Sekiya</h1>
+          <h1>ToDo App by Yosuke Sekiya</h1>
         </Col>
       </Row>
 
